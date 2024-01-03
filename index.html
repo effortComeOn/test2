@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Particles</title>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
+  </head>
+  <body>
+    <div id="particles-container"></div>
+    <script type="text/javascript">
+      tsParticles.load("particles-container", {
+        particles: {
+          number: {
+            value: 100, // 粒子数量
+          },
+          shape: {
+            type: "circle", // 粒子形状
+          },
+          size: {
+            value: 3, // 粒子大小
+          },
+          color: {
+            value: ["#ff0000", "#00FF00", "#0000FF"], // 粒子颜色
+          },
+          move: {
+            enable: true, // 粒子移动
+            speed: 2, // 粒子速度
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
